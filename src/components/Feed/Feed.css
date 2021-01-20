@@ -1,0 +1,53 @@
+.feed {
+   flex: 0.6;
+   margin: 2rem;
+}
+
+.feed__inputContainer {
+   padding: 2rem;
+   padding-bottom: 2rem;
+   margin-bottom: 2rem;
+   background-color: #fff;
+   border-radius: 1rem;
+}
+
+.feed__input {
+   display: flex;
+   align-items: center;
+   padding: .5rem 1.5rem;
+   border: 1px solid #ddd;
+   border-radius: 3rem;
+   color: #ddd;
+}
+
+.feed__input > form {
+   display: flex;
+   width: 100%;
+}
+
+.feed__input > form > input  {
+   border: none;
+   flex: 1;
+   margin-left: 1rem;
+   font-weight: 600;
+   padding: 1rem 0;
+   font-size: 1.6rem;
+   color: #444;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.feed__input > form > input::placeholder  {
+   color: #ddd;
+   font-size: 1.7rem;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: 400;
+}
+
+.feed__input > form > button  {
+   display: none;
+}
+
+.feed__inputOptions {
+   display: flex;
+   justify-content: space-evenly;
+}
